@@ -70,15 +70,15 @@ class VMPoolManagement:
 if __name__ == "__main__":
     vm_management = VMPoolManagement("vm_pool")
     
-    for i in range(0, 5):
-        vm = {
-            "VM" + str(i) : {
-                'ip_address':str(i) + "." + str(i) + "." + str(i) + "." + str(i),
-                'allocated_to':"",}
-        }
-        vm_management.update_pool(vm, "add")
+    # for i in range(0, 5):
+    #     vm = {
+    #         "VM" + str(i) : {
+    #             'ip_address':str(i) + "." + str(i) + "." + str(i) + "." + str(i),
+    #             'allocated_to':"",}
+    #     }
+    #     vm_management.update_pool(vm, "add")
 
-    vm_management.update_pool("VM4", "remove")
+    # vm_management.update_pool("VM4", "remove")
 
     # vm_info = vm_management.check_out_vm("test_user")
     # print(str(vm_info))
