@@ -24,7 +24,6 @@ class VMPoolManagement:
             print("Cleaning VM:" + vm)
 
             # Please uncomment below command if you have valid ip address and ssh setup on VMs in pool to execute cleanup.
-
             # subprocess.Popen("ssh {user}@{host} {cmd}".format(user="admin_user", host=data[vm]['ip_address'], cmd='rm -rf /tmp/*'), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
             data[vm]["allocated_to"] = ""
 
