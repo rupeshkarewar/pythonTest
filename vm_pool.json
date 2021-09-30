@@ -1,0 +1,18 @@
+{
+    "VM0": {
+        "ip_address": "0.0.0.0",
+        "allocated_to": ""
+    },
+    "VM1": {
+        "ip_address": "1.1.1.1",
+        "allocated_to": ""
+    },
+    "VM2": {
+        "ip_address": "2.2.2.2",
+        "allocated_to": ""
+    },
+    "VM3": {
+        "ip_address": "3.3.3.3",
+        "allocated_to": ""
+    }
+}
